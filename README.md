@@ -1,7 +1,7 @@
 ### OPPOSITE COLOR GENERATOR
 ---
 ## what it does
-this program genrate the opsite color using the color hex code.
+this program genrate the oppsite color using the color hex code.
 example ==> opposite of color #FFFFFF (white) is #000000 (black)
 
 ## how it works
@@ -17,6 +17,6 @@ after that convert that int into hex and concatenate them.
 1. clone the code locally in your device.
 2. channge your directory to the project dirctory
 3. install flask using pip `pip install flask`
-4. set the enviroment var `set FLASK_APP=app.py` in windows and `export FLASK_APP=app.py`
+4. set the enviroment var `set FLASK_APP=app.py` in windows and `export FLASK_APP=app.py` for linux and mac
 5. run the server `flask run`
 6. open browser and go to `localhost:5000`(you can see the right url after running the server)
