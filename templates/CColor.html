@@ -9,8 +9,14 @@
     <input type="submit" value="generate">
 </form>
 <hr>
-<label>main color : {{color}}</label>
-<div style="background-color:{{color}};"><br><br><br></div>
-<lable>opposite color : {{opcolor}}</lable>
-<div style="background-color:{{opcolor}};"><br><br><br></div>
+
+<div style="background-color:{{color}};">
+    <br><br>
+    <h2 style = "color:{{opcolor}};text-align:center;">main color : {{color}}</h2>
+    <br><br></div>
+
+<div style="background-color:{{opcolor}};">
+    <br><br>
+    <h2 style = "color : {{color}};text-align:center;">opposite color : {{opcolor}}</h2>
+    <br><br></div>
 {% endblock%}
