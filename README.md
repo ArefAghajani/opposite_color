@@ -1,8 +1,8 @@
-### OPOSITE COLOR GENERATOR
+### OPPOSITE COLOR GENERATOR
 ---
 ## what it does
 this program genrate the opsite color using the color hex code.
-example ==> oposite of color #FFFFFF (white) is #000000 (black)
+example ==> opposite of color #FFFFFF (white) is #000000 (black)
 
 ## how it works
 every 2 charcter of this code can be converted to an int between 0 to 255.
