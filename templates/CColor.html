@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 {% block title %}HEX{% endblock %}
 {% block content %}
-<h1>Oposite color generator</h1><hr>
-<h3>please write the color hex code to generate the oposite color</h3>
+<h1>Opposite color generator</h1><hr>
+<h3>please write the color hex code to generate the opposite color</h3>
 
 <form>
     <input type="text" name="color" placeholder="#FFFFFF">
@@ -11,6 +11,6 @@
 <hr>
 <label>main color : {{color}}</label>
 <div style="background-color:{{color}};"><br><br><br></div>
-<lable>oposite color : {{opcolor}}</lable>
+<lable>opposite color : {{opcolor}}</lable>
 <div style="background-color:{{opcolor}};"><br><br><br></div>
 {% endblock%}
