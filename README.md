@@ -20,3 +20,6 @@ after that convert that int into hex and concatenate them.
 4. set the enviroment var `set FLASK_APP=app.py` in windows and `export FLASK_APP=app.py` for linux and mac
 5. run the server `flask run`
 6. open browser and go to `localhost:5000`(you can see the right url after running the server)
+
+[![Watch the video](image.png)](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7285631256799711232?compact=1)
+click to play video
